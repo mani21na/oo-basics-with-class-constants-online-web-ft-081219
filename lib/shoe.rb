@@ -8,6 +8,9 @@ class Shoe
     if !BRANDS.include?(brand)
       @brand = brand
       BRANDS << brand
+#solution
+#   BRANDS << brand unless BRANDS.include?(brand)
+  end
     end
   end
 
